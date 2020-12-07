@@ -1,0 +1,15 @@
+C:\Project\Client\Client\Client\bin\Debug\netstandard2.0\Client.deps.json
+C:\Project\Client\Client\Client\bin\Debug\netstandard2.0\Client.dll
+C:\Project\Client\Client\Client\bin\Debug\netstandard2.0\ref\Client.dll
+C:\Project\Client\Client\Client\bin\Debug\netstandard2.0\Client.pdb
+C:\Project\Client\Client\Client\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Project\Client\Client\Client\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Project\Client\Client\Client\obj\Debug\netstandard2.0\Client.AssemblyInfoInputs.cache
+C:\Project\Client\Client\Client\obj\Debug\netstandard2.0\Client.AssemblyInfo.cs
+C:\Project\Client\Client\Client\obj\Debug\netstandard2.0\Client.csproj.CoreCompileInputs.cache
+C:\Project\Client\Client\Client\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Project\Client\Client\Client\obj\Debug\netstandard2.0\Client.dll
+C:\Project\Client\Client\Client\obj\Debug\netstandard2.0\ref\Client.dll
+C:\Project\Client\Client\Client\obj\Debug\netstandard2.0\Client.pdb
+C:\Project\Client\Client\Client\obj\Debug\netstandard2.0\StartPage.xaml.g.cs
+C:\Project\Client\Client\Client\obj\Debug\netstandard2.0\Client.csprojAssemblyReference.cache
