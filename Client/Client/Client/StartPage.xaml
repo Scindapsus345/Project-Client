@@ -10,6 +10,8 @@
                         <Grid>
                             <Image Source="{Binding .ImageName}" VerticalOptions="Start"/>
                             <Label Text="{Binding .Text}" FontSize="60" TextColor="White"/>
+                            <Button Text="Начать" VerticalOptions="End" Margin="100, 30" HeightRequest="60" BorderColor="Aqua"
+                                    FontSize="24" BackgroundColor="DodgerBlue" TextColor="White" IsVisible="{Binding .IsLast}"/>
                         </Grid>
                     </DataTemplate>
                 </CarouselView.ItemTemplate>

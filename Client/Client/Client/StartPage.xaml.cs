@@ -20,7 +20,7 @@ namespace Client
             {
                 new SliderItem() {Text = "A", ImageName = "slider_one"},
                 new SliderItem() {Text = "B", ImageName = "slider_two"},
-                new SliderItem() {Text = "C", ImageName = "slider_three"},
+                new SliderItem() {Text = "C", ImageName = "slider_three", IsLast = true},
             };
 
             var names = new List<string>()
@@ -40,5 +40,6 @@ namespace Client
     {
         public string Text { get; set; }
         public string ImageName { get; set; }
+        public bool IsLast { get; set; }
     }
 }

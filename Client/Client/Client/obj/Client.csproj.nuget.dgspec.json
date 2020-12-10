@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\Client\\Client\\Client\\Client.csproj": {}
+    "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj": {}
   },
   "projects": {
-    "C:\\Project\\Client\\Client\\Client\\Client.csproj": {
+    "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Client\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Project\\Client\\Client\\Client\\Client.csproj",
+        "projectPath": "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Client\\Client\\Client\\obj\\",
+        "outputPath": "C:\\Project\\Project-Client\\Client\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

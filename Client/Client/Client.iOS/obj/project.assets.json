@@ -987,11 +987,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\Client\\Client\\Client.iOS\\Client.iOS.csproj",
+      "projectUniqueName": "C:\\Project\\Project-Client\\Client\\Client\\Client.iOS\\Client.iOS.csproj",
       "projectName": "Client.iOS",
-      "projectPath": "C:\\Project\\Client\\Client\\Client.iOS\\Client.iOS.csproj",
+      "projectPath": "C:\\Project\\Project-Client\\Client\\Client\\Client.iOS\\Client.iOS.csproj",
       "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\Client\\Client\\Client.iOS\\obj\\",
+      "outputPath": "C:\\Project\\Project-Client\\Client\\Client\\Client.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1012,8 +1012,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Project\\Client\\Client\\Client\\Client.csproj": {
-              "projectPath": "C:\\Project\\Client\\Client\\Client\\Client.csproj"
+            "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj": {
+              "projectPath": "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj"
             }
           }
         }

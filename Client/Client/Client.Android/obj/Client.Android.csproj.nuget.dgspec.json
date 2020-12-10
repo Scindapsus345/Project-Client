@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\Client\\Client\\Client.Android\\Client.Android.csproj": {}
+    "C:\\Project\\Project-Client\\Client\\Client\\Client.Android\\Client.Android.csproj": {}
   },
   "projects": {
-    "C:\\Project\\Client\\Client\\Client.Android\\Client.Android.csproj": {
+    "C:\\Project\\Project-Client\\Client\\Client\\Client.Android\\Client.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Client\\Client\\Client.Android\\Client.Android.csproj",
+        "projectUniqueName": "C:\\Project\\Project-Client\\Client\\Client\\Client.Android\\Client.Android.csproj",
         "projectName": "Client.Android",
-        "projectPath": "C:\\Project\\Client\\Client\\Client.Android\\Client.Android.csproj",
+        "projectPath": "C:\\Project\\Project-Client\\Client\\Client\\Client.Android\\Client.Android.csproj",
         "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Client\\Client\\Client.Android\\obj\\",
+        "outputPath": "C:\\Project\\Project-Client\\Client\\Client\\Client.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Project\\Client\\Client\\Client\\Client.csproj": {
-                "projectPath": "C:\\Project\\Client\\Client\\Client\\Client.csproj"
+              "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj": {
+                "projectPath": "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Project\\Client\\Client\\Client\\Client.csproj": {
+    "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Client\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Project\\Client\\Client\\Client\\Client.csproj",
+        "projectPath": "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Client\\Client\\Client\\obj\\",
+        "outputPath": "C:\\Project\\Project-Client\\Client\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
