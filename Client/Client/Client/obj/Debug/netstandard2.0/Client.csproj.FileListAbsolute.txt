@@ -19,7 +19,6 @@ C:\Project\Project-Client\Client\Client\Client\bin\Debug\netstandard2.0\ref\Clie
 C:\Project\Project-Client\Client\Client\Client\bin\Debug\netstandard2.0\Client.pdb
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.csprojAssemblyReference.cache
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\StartPage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.AssemblyInfoInputs.cache
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.AssemblyInfo.cs
@@ -28,3 +27,5 @@ C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\XamlC.st
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.dll
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\ref\Client.dll
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.pdb
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\FavoritesPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\MainPage.xaml.g.cs

@@ -34,6 +34,11 @@ namespace Client
             };
             CarouselView.ItemsSource = items;
         }
+
+        private async void ToMainPage(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
     }
 
     class SliderItem
