@@ -1,16 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Client.StartPage"
              NavigationPage.HasNavigationBar="False">
-    <ContentPage.Content>
-        <StackLayout>
-            <CarouselView x:Name="CarouselView">
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
-            </CarouselView>
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <Grid BackgroundColor="White">
+                <Image Source="slider1" VerticalOptions="EndAndExpand" Aspect="AspectFill"/>
+                <Label Text="Вы" FontSize="60" FontAttributes="Bold" TextColor="Black" 
+                       HorizontalOptions="Start" Margin="15, 100, 0, 0"/>
+                <Label Text="устали" FontSize="60" FontAttributes="Bold" TextColor="#F7ED25" 
+                       HorizontalOptions="Center" Margin="45, 100, 0, 0"/>
+                <Label Text="уставать?" FontSize="60" FontAttributes="Bold" TextColor="#F7ED25" 
+                       HorizontalOptions="End" Margin="0, 165, 15, 0"/>
+            </Grid>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <Grid BackgroundColor="#4C4A4A">
+                <Image Source="slider2" VerticalOptions="End" Aspect="AspectFill"/>
+                <Label Text="Ничто" FontSize="60" FontAttributes="Bold" TextColor="White" 
+                       HorizontalOptions="Center" Margin="0, 80"/>
+                <Label Text="не приносит" FontSize="60" FontAttributes="Bold" TextColor="#AAB7B7" 
+                       HorizontalOptions="Center" Margin="0, 145"/>
+                <Label Text="радости?" FontSize="60" FontAttributes="Bold" TextColor="White" 
+                       HorizontalOptions="Center" Margin="0, 210"/>
+            </Grid>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <Grid BackgroundColor="White">
+                <Image Source="sliderFinal" Aspect="AspectFill"/>
+                <Button VerticalOptions="End" BackgroundColor="#EF0000" Margin="20, 0, 20, 50"
+                    HeightRequest="70" CornerRadius="35"
+                    Text="Вернуть огонь &#10;своей душе!" TextColor="White" TextTransform="None"
+                    FontSize="26" Padding="0,-5,0,0" FontAttributes="Bold" Clicked="ToLoginPage"/>
+            </Grid>
+        </ContentPage.Content>
+    </ContentPage>
+</CarouselPage>

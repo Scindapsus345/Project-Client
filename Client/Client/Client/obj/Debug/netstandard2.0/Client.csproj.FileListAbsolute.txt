@@ -17,7 +17,6 @@ C:\Project\Project-Client\Client\Client\Client\bin\Debug\netstandard2.0\Client.d
 C:\Project\Project-Client\Client\Client\Client\bin\Debug\netstandard2.0\Client.dll
 C:\Project\Project-Client\Client\Client\Client\bin\Debug\netstandard2.0\ref\Client.dll
 C:\Project\Project-Client\Client\Client\Client\bin\Debug\netstandard2.0\Client.pdb
-C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.csprojAssemblyReference.cache
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\StartPage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.AssemblyInfoInputs.cache
@@ -35,3 +34,5 @@ C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Maditati
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\MeditationTutorialPage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\AddHabitsPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\TestPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.csprojAssemblyReference.cache

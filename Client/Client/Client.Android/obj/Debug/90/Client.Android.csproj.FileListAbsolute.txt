@@ -1026,3 +1026,6 @@ C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable
 C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable\m_tutorial.png
 C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable\m_music.png
 C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable\mt_lock.png
+C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable\slider1.png
+C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable\slider2.png
+C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable\sliderfinal.png
