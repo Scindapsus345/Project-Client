@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Client.PsychologyPage"
+             NavigationPage.HasNavigationBar="false"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout>
+                <Label Text="Для Вас" FontSize="32" TextColor="Black" Margin="8, 14, 0, 4" FontAttributes="Bold"/>
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal" Margin="10, 4">
+                        <AbsoluteLayout WidthRequest="330" HeightRequest="184" Margin="0,0,10,0">
+                            <Image Source="p_ForYou1" HorizontalOptions="Center" />
+                            <Label Text="Не борись с &#10;мыслями, а &#10;отпусти их" 
+                                   FontSize="32" TextColor="White" FontAttributes="Bold"
+                                   Margin="115, 15, 0, 0"/>
+                            <!--<Button WidthRequest="330" HeightRequest="184" IsVisible="False"/>-->
+                        </AbsoluteLayout>
+                        <AbsoluteLayout WidthRequest="330" HeightRequest="184">
+                            <Image Source="p_ForYou2" HorizontalOptions="Center"/>
+                            <Label Text="Дай шанс &#10;стоицизму" FontSize="32" TextColor="Black" FontAttributes="Bold"
+                                   Margin="130, 24, 0, 0"/>
+                        </AbsoluteLayout>
+                    </StackLayout>
+                </ScrollView>
+
+                <Label Text="Повседневная жизнь" FontSize="30" TextColor="Black" Margin="8, 4, 0, 0" FontAttributes="Bold"/>
+                <StackLayout Orientation="Horizontal"  Margin="10, 4">
+                    <AbsoluteLayout WidthRequest="330" HeightRequest="184">
+                        <Image Source="p_Routine1" HorizontalOptions="Center" />
+                        <Label Text="Выключи &#10;телефон" 
+                               FontSize="30" TextColor="#600069" FontAttributes="Bold"
+                               Margin="30, 24, 0, 0"/>
+                    </AbsoluteLayout>
+                </StackLayout>
+
+                <Label Text="Научный подход" FontSize="30" TextColor="Black" Margin="8, 4, 0, 0" FontAttributes="Bold"/>
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal"  Margin="10, 4">
+                        <AbsoluteLayout WidthRequest="330" HeightRequest="184" Margin="0,0,10,0">
+                            <Image Source="p_Science2" HorizontalOptions="Center" />
+                            <Label Text="Можно ли&#10;управлять &#10;мыслями" 
+                               FontSize="30" TextColor="#0A0083" FontAttributes="Bold"
+                               Margin="150, 30, 0, 0"/>
+                        </AbsoluteLayout>
+                        <AbsoluteLayout WidthRequest="330" HeightRequest="184">
+                            <Image Source="p_Science1" HorizontalOptions="Center" />
+                            <Label Text="СДВГ и его &#10;лечение" 
+                               FontSize="26" TextColor="#989B00" FontAttributes="Bold"
+                               Margin="166, 15, 0, 0"/>
+                        </AbsoluteLayout>
+                    </StackLayout>
+                </ScrollView>
+
+                <Label Text="Топливо души" FontSize="30" TextColor="Black" Margin="8, 4, 0, 0" FontAttributes="Bold"/>
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal"  Margin="10, 4">
+                        <AbsoluteLayout WidthRequest="330" HeightRequest="184" Margin="0,0,10,0">
+                            <Image Source="p_Fuel_Books" HorizontalOptions="Center" />
+                            <Label Text="Книги" 
+                                   FontSize="44" TextColor="White" FontAttributes="Bold"
+                                   Margin="95, 55, 0, 0"/>
+                        </AbsoluteLayout>
+                        <AbsoluteLayout WidthRequest="330" HeightRequest="184">
+                            <Image Source="p_Fuel_Films" HorizontalOptions="Center" />
+                            <Label Text="Фильмы" 
+                                   FontSize="44" TextColor="White" FontAttributes="Bold"
+                                   Margin="67, 55, 0, 0"/>
+                        </AbsoluteLayout>
+                    </StackLayout>
+                </ScrollView>
+
+                <Label Text="По темам" FontSize="32" TextColor="Black" Margin="8, 4, 0, 0" FontAttributes="Bold"/>
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal"  Margin="10, 4">
+                        <Frame WidthRequest="168" HeightRequest="168" Margin="0,0,7,0" 
+                               BackgroundColor="#1B1C3A" Padding="0" CornerRadius="32">
+                            <Grid>
+                                <Image Source="psychoBtn3" HorizontalOptions="Start"/>
+                                <Label Text="Искусство" FontSize="28" Margin="0,10,0,0"
+                                       TextColor="White" FontAttributes="Bold" HorizontalOptions="Center"/>
+                            </Grid>
+                        </Frame>
+                        <Frame WidthRequest="168" HeightRequest="168" Margin="0,0,7,0" 
+                               Padding="0" CornerRadius="32">
+                            <Grid>
+                                <Image Source="p_Topics_Science" HorizontalOptions="Start"/>
+                                <Label Text="Наука" FontSize="28" Margin="0,0,0,0"
+                                       TextColor="#2400FF" FontAttributes="Bold" HorizontalOptions="Center"/>
+                            </Grid>
+                        </Frame>
+                        <Frame WidthRequest="168" HeightRequest="168" Margin="0,0,7,0" 
+                               Padding="0" CornerRadius="32">
+                            <Grid>
+                                <Image Source="p_Topics_Relatives" HorizontalOptions="Start"/>
+                                <Label Text="Отношения" FontSize="28" Margin="0,20,0,0"
+                                       TextColor="White" FontAttributes="Bold" HorizontalOptions="Center"/>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

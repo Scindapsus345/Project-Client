@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Client.MaditationPage">
+    <!--#31005B-->
+    <ContentPage.Content>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout Spacing="0">
+                <Grid WidthRequest="320" HeightRequest="170"
+                  Margin="20, 10">
+                    <Frame CornerRadius="32" BackgroundColor="#31005B" Padding="0">
+                        <Grid HorizontalOptions="Center">
+                            <Image Source="m_Tutorial" HorizontalOptions="Start" Margin="-5,0,0,0"/>
+                            <Label Text="Введение" FontSize="34" FontAttributes="Bold" TextColor="#FFBA3E" Margin="150,25,0,0"/>
+                            <Label Text="в медитацию" FontSize="28" FontAttributes="Bold" TextColor="#FFBA3E" Margin="150,65,0,0"/>
+                            <Button BackgroundColor="#00000000" Clicked="OpenTutorial"/>
+                        </Grid>
+                    </Frame>
+                </Grid>
+                <Frame BackgroundColor="#60578D" Margin="20,0" CornerRadius="30" Padding="0">
+                    <StackLayout Margin="0, 30, 0, 30">
+                        <Grid HorizontalOptions="Center" 
+                              HeightRequest="300"
+                              WidthRequest="300">
+                            <Ellipse
+                        HeightRequest="300"
+                        WidthRequest="300"
+                        Fill="#816EE8"/>
+                            <Image x:Name ="clockFace" Source="min10">
+                                <Image.Clip>
+                                    <EllipseGeometry
+                                    Center="150,150"
+                                    RadiusX="150"
+                                    RadiusY="150"/>
+                                </Image.Clip>
+                            </Image>
+                            <AbsoluteLayout>
+                                <Button x:Name="setMin1"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="191, 24"
+                            Text="5" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                                <Button x:Name="setMin2"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="236, 69"
+                            Text="10" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                                <Button x:Name="setMin3"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="253, 130"
+                            Text="15" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                                <Button x:Name="setMin4"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="236, 191"
+                            Text="20" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                                <Button x:Name="setMin5"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="191, 236"
+                            Text="25" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                                <Button x:Name="setMin6"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="130, 253"
+                            Text="30" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                                <Button x:Name="setMin7"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="69, 236"
+                            Text="35" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                                <Button x:Name="setMin8"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="24, 191"
+                            Text="40" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                                <Button x:Name="setMin9"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="7, 130"
+                            Text="45" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                                <Button x:Name="setMin10"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="24, 69"
+                            Text="50" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                                <Button x:Name="setMin11"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="69, 24"
+                            Text="55" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                                <Button x:Name="setMin12"
+                            HeightRequest="40" WidthRequest="40" CornerRadius="20"
+                            Padding="0"
+                            AbsoluteLayout.LayoutBounds="130, 7"
+                            Text="60" FontSize="22" TextColor="White"
+                            BackgroundColor="#816EE8" Clicked="SetClockFace"
+                            BorderColor="White"
+                            BorderWidth="2"/>
+                            </AbsoluteLayout>
+                        </Grid>
+                        <Grid Margin="0,15,0,0">
+                            <Button HeightRequest="70" WidthRequest="70" CornerRadius="35" HorizontalOptions="Center"
+                                    BackgroundColor="#816EE8" ImageSource="m_Music"/>
+                        </Grid>
+                        <Button WidthRequest="250" HeightRequest="50" HorizontalOptions="Center" CornerRadius="25" Margin="0,15,0,0"
+                            Text="НАЧАТЬ" FontSize="30" Padding="0" BackgroundColor="#816EE8" FontAttributes="Bold" TextColor="White"/>
+                    </StackLayout>
+                </Frame>
+                <Grid Margin="20,15,0,0">
+                    <Button Text="20" HeightRequest="70" WidthRequest="100" CornerRadius="35" HorizontalOptions="Start"
+                            BackgroundColor="#60578D" ImageSource="m_Music" TextColor="White" FontSize="24"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Client.ProfilePage">
+    <ContentPage.Content>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout>
+                <Frame HorizontalOptions="Center" Padding="0" Margin="0,20,0,0" CornerRadius="35">
+                    <Image Source="pr_Avatar"/>
+                </Frame>
+                <Label Text="Даниил" FontSize="32" TextColor="Black" Margin="0, 5, 0, 0" 
+                       FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Избранное" FontSize="32" TextColor="Black" Margin="0, 0, 0, 0" 
+                       FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Grid RowSpacing="10" ColumnSpacing="10" Margin="10, 10, 10, 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <ImageButton Source="pr_Articles" Grid.Column="0" Grid.RowSpan="2" CornerRadius="32"
+                                 HeightRequest="170" WidthRequest="170"/>
+                    <Label Text="Статьи" Grid.Column="0" Grid.RowSpan="2"
+                           TextColor="White" FontSize="30" FontAttributes="Bold" 
+                           HorizontalOptions="Center" Margin="0,10,0,0"/>
+                    <Button BackgroundColor="#700083" Grid.Column="1" 
+                            Text="Медитации" TextTransform="None" CornerRadius="32"
+                            FontAttributes="Bold" TextColor="White" FontSize="28" 
+                            HeightRequest="80"/>
+                    <Button BackgroundColor="#65CAE0" Grid.Column="1" Grid.Row="1"
+                            Text="Фокусирование" TextTransform="None" CornerRadius="32"
+                            FontAttributes="Bold" TextColor="White" FontSize="22" 
+                            HeightRequest="80"/>
+                </Grid>
+
+                <Label Text="Достижения" FontSize="34" TextColor="Black" Margin="0, 0, 0, 0" 
+                       FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Grid RowSpacing="10" ColumnSpacing="10" Margin="10, 10, 10, 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Ellipse HeightRequest="75" WidthRequest="75" Fill="#FCFF51"/>
+                    <StackLayout Grid.Column="1" Spacing="0">
+                        <Label Text="Буддист" FontSize="24" TextColor="Black" Margin="0, 0, 0, 0" 
+                               FontAttributes="Bold"/>
+                        <Label Text="Серия медитаций из 10 дней" FontSize="18" TextColor="#656565" Margin="0, 0, 0, 0" 
+                               FontAttributes="Bold"/>
+                    </StackLayout>
+                    <Ellipse HeightRequest="75" WidthRequest="75" Fill="#FCFF51" Grid.Row="1"/>
+                    <StackLayout Grid.Column="1" Spacing="0" Grid.Row="1">
+                        <Label Text="Работник" FontSize="24" TextColor="Black" Margin="0, 0, 0, 0" 
+                               FontAttributes="Bold"/>
+                        <Label Text="Серия фокусировок из 10 дней" FontSize="18" TextColor="#656565" Margin="0, 0, 0, 0" 
+                               FontAttributes="Bold"/>
+                    </StackLayout>
+                    <Ellipse HeightRequest="75" WidthRequest="75" Fill="#C1C1C1" Grid.Row="2"/>
+                    <StackLayout Grid.Column="1" Spacing="0" Grid.Row="2">
+                        <Label Text="Чтец" FontSize="24" TextColor="Black" Margin="0, 0, 0, 0" 
+                               FontAttributes="Bold"/>
+                        <Label Text="Серия медитаций из 5 дней" FontSize="18" TextColor="#656565" Margin="0, 0, 0, 0" 
+                               FontAttributes="Bold"/>
+                    </StackLayout>
+                    <Ellipse HeightRequest="75" WidthRequest="75" Fill="#C1C1C1" Grid.Row="3"/>
+                    <StackLayout Grid.Column="1" Spacing="0" Grid.Row="3">
+                        <Label Text="My Way" FontSize="24" TextColor="Black" Margin="0, 0, 0, 0" 
+                               FontAttributes="Bold"/>
+                        <Label Text="Прожить дочтойную жизнь" FontSize="18" TextColor="#656565" Margin="0, 0, 0, 0" 
+                               FontAttributes="Bold"/>
+                    </StackLayout>
+                    <Ellipse HeightRequest="75" WidthRequest="75" Fill="#C1C1C1" Grid.Row="4"/>
+                    <StackLayout Grid.Column="1" Spacing="0" Grid.Row="4">
+                        <Label Text="Атлант" FontSize="24" TextColor="Black" Margin="0, 0, 0, 0" 
+                               FontAttributes="Bold"/>
+                        <Label Text="Расправить плечи" FontSize="18" TextColor="#656565" Margin="0, 0, 0, 0" 
+                               FontAttributes="Bold"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

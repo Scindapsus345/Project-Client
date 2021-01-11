@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Client.HomePage"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView VerticalScrollBarVisibility="Never">
+            <StackLayout>
+                <Label Text="Рекомендуем" FontSize="32" TextColor="Black" Margin="8, 14, 0, 4" FontAttributes="Bold"/>
+                <Grid HorizontalOptions="Center" MinimumWidthRequest="330" Margin="10, 0, 10, 0"
+                  BackgroundColor="#BC3039" Padding="0">
+                    <Image Source="h_YouTube" HorizontalOptions="Start"/>
+                    <Label Text="YouTube &#10;это не &#10;отдых" FontSize="34" TextColor="White" FontAttributes="Bold"
+                       Margin="0, 20, 0, 0" Grid.Column="1"/>
+                </Grid>
+
+                <Label Text="Полезные привычки" FontSize="32" TextColor="Black" Margin="8, 14, 0, 4" FontAttributes="Bold"/>
+                <StackLayout>
+                    <Label Text="1. Выпить стакан воды утром" FontSize="24" Margin="10,0,10,0" Padding="3"
+                       BackgroundColor="#00CC2D" TextColor="White"/>
+                    <Label Text="2. Пройти 10 000 шагов" FontSize="24" Margin="10,0,10,0" Padding="3"
+                       BackgroundColor="#C3FFD1" TextColor="Black"/>
+                    <Label Text="3. Спать на правом боку" FontSize="24" Margin="10,0,10,0" Padding="3"
+                       BackgroundColor="#C3FFD1" TextColor="Black"/>
+                </StackLayout>
+                <Button Text="Добавить еще" HorizontalOptions="End" TextColor="#0500FF"
+                    Margin="0,-5,10,0" Padding="2" HeightRequest="30" TextTransform="None" Background="White"/>
+
+                <Label Text="Цитата дня" FontSize="32" TextColor="Black" Margin="8, -5, 0, 4" FontAttributes="Bold"/>
+
+                <Grid HeightRequest="200" Margin="10, 0, 10, 0"
+                  BackgroundColor="#EB5D49" Padding="0">
+                    <Image Source="h_Trump" HorizontalOptions="End" VerticalOptions="End"/>
+                    <Label Text="Никогда не берите отпуск.&#10;Зачем он вам? Если работа&#10;не доставляет удовольствия,&#10;значит, вы работаете не там,&#10;где нужно" 
+                       FontSize="20" TextColor="White" FontAttributes="Bold"
+                       Margin="0, 10, 0, 0" HorizontalTextAlignment="Center"/>
+                    <Label Text="— Дональд Трамп" 
+                       FontSize="22" TextColor="White" FontAttributes="Italic"  
+                       Margin="0, 0, 20, 15" HorizontalTextAlignment="Center" VerticalOptions="End"/>
+
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

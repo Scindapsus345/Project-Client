@@ -2,33 +2,23 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:client="clr-namespace:Client;assembly=Client"
-             xmlns:xamarinForms="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms"
              x:Class="Client.MainPage"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             NavigationPage.HasNavigationBar="false"
+             BackgroundColor="White"
              android:TabbedPage.ToolbarPlacement="Bottom"
              BarBackgroundColor="white"
-             SelectedTabColor="LightSkyBlue"
+             SelectedTabColor="#769CFF"
              UnselectedTabColor="Black">
 
     <!--Pages can be added as references or inline-->
-    <ContentPage IconImageSource="meditation_icon">
-        <Label Text="meditation"/>
-    </ContentPage>
+    <client:MaditationPage IconImageSource="meditation_icon" Title="Медитация"/>
 
-    <ContentPage IconImageSource="concentration_icon">
-        <Label Text="concentration"/>
-    </ContentPage>
+    <client:FocusPage IconImageSource="concentration_icon" Title="Фокус"/>
 
-    <ContentPage IconImageSource="fire_icon"
-                 x:Name="fire_content">
-        <Label Text="fire"/>
-    </ContentPage>
+    <client:HomePage x:Name="fire_content" IconImageSource="fire_icon" Title="Главная"/>
 
-    <ContentPage IconImageSource="book_icon">
-        <Label Text="books"/>
-    </ContentPage>
+    <client:PsychologyPage IconImageSource="book_icon" Title="Психология"/>
 
-    <ContentPage IconImageSource="profile_icon">
-        <Label Text="profile"/>
-    </ContentPage>
+    <client:ProfilePage IconImageSource="profile_icon" Title="Профиль"/>
 </TabbedPage>

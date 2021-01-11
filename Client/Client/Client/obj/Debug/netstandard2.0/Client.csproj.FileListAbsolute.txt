@@ -27,5 +27,10 @@ C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\XamlC.st
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.dll
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\ref\Client.dll
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.pdb
-C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\FavoritesPage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\FocusPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\PsychologyPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\MaditationPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\MeditationTutorialPage.xaml.g.cs
