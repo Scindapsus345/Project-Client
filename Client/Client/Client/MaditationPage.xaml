@@ -22,10 +22,11 @@
                         <Grid HorizontalOptions="Center" 
                               HeightRequest="300"
                               WidthRequest="300">
-                            <Ellipse
-                        HeightRequest="300"
-                        WidthRequest="300"
-                        Fill="#816EE8"/>
+                            <Frame
+                                HeightRequest="300"
+                                WidthRequest="300"
+                                BackgroundColor="#816EE8"
+                                CornerRadius="150"/>
                             <Image x:Name ="clockFace" Source="min10">
                                 <Image.Clip>
                                     <EllipseGeometry

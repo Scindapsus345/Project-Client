@@ -43,35 +43,39 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
-                    <Ellipse HeightRequest="75" WidthRequest="75" Fill="#FCFF51"/>
+                    <Frame HeightRequest="75" WidthRequest="75" BackgroundColor="#FCFF51" CornerRadius="37" Padding="0"/>
                     <StackLayout Grid.Column="1" Spacing="0">
                         <Label Text="Буддист" FontSize="24" TextColor="Black" Margin="0, 0, 0, 0" 
                                FontAttributes="Bold"/>
                         <Label Text="Серия медитаций из 10 дней" FontSize="18" TextColor="#656565" Margin="0, 0, 0, 0" 
                                FontAttributes="Bold"/>
                     </StackLayout>
-                    <Ellipse HeightRequest="75" WidthRequest="75" Fill="#FCFF51" Grid.Row="1"/>
+                    <Frame HeightRequest="75" WidthRequest="75" BackgroundColor="#FCFF51" 
+                           CornerRadius="37" Padding="0" Grid.Row="1"/>
                     <StackLayout Grid.Column="1" Spacing="0" Grid.Row="1">
                         <Label Text="Работник" FontSize="24" TextColor="Black" Margin="0, 0, 0, 0" 
                                FontAttributes="Bold"/>
                         <Label Text="Серия фокусировок из 10 дней" FontSize="18" TextColor="#656565" Margin="0, 0, 0, 0" 
                                FontAttributes="Bold"/>
                     </StackLayout>
-                    <Ellipse HeightRequest="75" WidthRequest="75" Fill="#C1C1C1" Grid.Row="2"/>
+                    <Frame HeightRequest="75" WidthRequest="75" BackgroundColor="#C1C1C1" 
+                           CornerRadius="37" Padding="0" Grid.Row="2"/>
                     <StackLayout Grid.Column="1" Spacing="0" Grid.Row="2">
                         <Label Text="Чтец" FontSize="24" TextColor="Black" Margin="0, 0, 0, 0" 
                                FontAttributes="Bold"/>
                         <Label Text="Серия медитаций из 5 дней" FontSize="18" TextColor="#656565" Margin="0, 0, 0, 0" 
                                FontAttributes="Bold"/>
                     </StackLayout>
-                    <Ellipse HeightRequest="75" WidthRequest="75" Fill="#C1C1C1" Grid.Row="3"/>
+                    <Frame HeightRequest="75" WidthRequest="75" BackgroundColor="#C1C1C1" 
+                           CornerRadius="37" Padding="0" Grid.Row="3"/>
                     <StackLayout Grid.Column="1" Spacing="0" Grid.Row="3">
                         <Label Text="My Way" FontSize="24" TextColor="Black" Margin="0, 0, 0, 0" 
                                FontAttributes="Bold"/>
                         <Label Text="Прожить дочтойную жизнь" FontSize="18" TextColor="#656565" Margin="0, 0, 0, 0" 
                                FontAttributes="Bold"/>
                     </StackLayout>
-                    <Ellipse HeightRequest="75" WidthRequest="75" Fill="#C1C1C1" Grid.Row="4"/>
+                    <Frame HeightRequest="75" WidthRequest="75" BackgroundColor="#C1C1C1" 
+                           CornerRadius="37" Padding="0" Grid.Row="4"/>
                     <StackLayout Grid.Column="1" Spacing="0" Grid.Row="4">
                         <Label Text="Атлант" FontSize="24" TextColor="Black" Margin="0, 0, 0, 0" 
                                FontAttributes="Bold"/>
