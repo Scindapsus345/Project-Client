@@ -15,16 +15,16 @@
                 </Grid>
 
                 <Label Text="Полезные привычки" FontSize="32" TextColor="Black" Margin="8, 14, 0, 4" FontAttributes="Bold"/>
-                <StackLayout>
-                    <Label Text="1. Выпить стакан воды утром" FontSize="24" Margin="10,0,10,0" Padding="3"
+                <StackLayout x:Name="habitsList">
+                    <!--<Label Text="1. Выпить стакан воды утром" FontSize="24" Margin="10,0,10,0" Padding="3"
                        BackgroundColor="#00CC2D" TextColor="White"/>
                     <Label Text="2. Пройти 10 000 шагов" FontSize="24" Margin="10,0,10,0" Padding="3"
                        BackgroundColor="#C3FFD1" TextColor="Black"/>
                     <Label Text="3. Спать на правом боку" FontSize="24" Margin="10,0,10,0" Padding="3"
-                       BackgroundColor="#C3FFD1" TextColor="Black"/>
+                       BackgroundColor="#C3FFD1" TextColor="Black"/>-->
                 </StackLayout>
                 <Button Text="Добавить еще" HorizontalOptions="End" TextColor="#0500FF"
-                    Margin="0,-5,10,0" Padding="2" HeightRequest="30" TextTransform="None" Background="White"/>
+                    Margin="0,-5,10,0" Padding="2" HeightRequest="30" TextTransform="None" Background="White" Clicked="AddHabits"/>
 
                 <Label Text="Цитата дня" FontSize="32" TextColor="Black" Margin="8, -5, 0, 4" FontAttributes="Bold"/>
 

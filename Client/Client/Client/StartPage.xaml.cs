@@ -32,7 +32,10 @@ namespace Client
             {
                 "slider_one", "slider_two", "slider_three"
             };
-            CarouselView.ItemsSource = items;
+            CarouselView.ItemsSource = new List<Label>()
+            {
+                new Label() {Text = "HALLOOO"}
+            };
         }
 
         private async void ToMainPage(object sender, EventArgs e)

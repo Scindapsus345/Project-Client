@@ -34,3 +34,4 @@ C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\HomePage
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\MaditationPage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\MeditationTutorialPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\AddHabitsPage.xaml.g.cs

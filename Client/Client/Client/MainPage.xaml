@@ -7,6 +7,7 @@
              NavigationPage.HasNavigationBar="false"
              BackgroundColor="White"
              android:TabbedPage.ToolbarPlacement="Bottom"
+             android:TabbedPage.IsSwipePagingEnabled="False"
              BarBackgroundColor="white"
              SelectedTabColor="#769CFF"
              UnselectedTabColor="Black">
