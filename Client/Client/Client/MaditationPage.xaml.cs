@@ -43,5 +43,11 @@ namespace Client
         {
             await Navigation.PushAsync(new MeditationTutorialPage());
         }
+
+        private async void OpenTimer(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TimerPage(TimeSpan.FromMinutes(currentMinutes),
+                Color.FromHex("#31005B"), Color.FromHex("#816EE8")));
+        }
     }
 }

@@ -36,3 +36,4 @@ C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Meditati
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\AddHabitsPage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\TestPage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.csprojAssemblyReference.cache
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\TimerPage.xaml.g.cs

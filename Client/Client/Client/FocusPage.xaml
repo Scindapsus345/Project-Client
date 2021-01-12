@@ -170,7 +170,8 @@
                 </StackLayout>
             </Frame>
             <Button WidthRequest="250" HeightRequest="50" HorizontalOptions="Center" CornerRadius="25" Margin="0,30,0,0"
-                    Text="НАЧАТЬ" FontSize="30" Padding="0" BackgroundColor="#769CFF" FontAttributes="Bold" TextColor="White"/>
+                    Text="НАЧАТЬ" FontSize="30" Padding="0" BackgroundColor="#769CFF" FontAttributes="Bold" TextColor="White"
+                    Clicked="OpenTimer"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -80,6 +80,12 @@ namespace Client
                 if (!presetStates[i - 1].IsEmpty)
                     presetStates[i].MinutesCount = presetStates[i - 1].MinutesCount;
         }
+
+        private async void OpenTimer(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TimerPage(TimeSpan.FromMinutes(currentMinutes),
+                Color.FromHex("#3D569E"), Color.FromHex("#769CFF")));
+        }
     }
 
     class PresetState

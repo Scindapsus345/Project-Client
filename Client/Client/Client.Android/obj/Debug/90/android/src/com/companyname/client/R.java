@@ -4625,13 +4625,17 @@ public final class R {
     public static final int psychobtn3=0x7f070097;
     public static final int slider1=0x7f070098;
     public static final int slider2=0x7f070099;
-    public static final int slider_one=0x7f07009a;
-    public static final int slider_three=0x7f07009b;
-    public static final int slider_two=0x7f07009c;
-    public static final int sliderfinal=0x7f07009d;
-    public static final int sphere=0x7f07009e;
-    public static final int tooltip_frame_dark=0x7f07009f;
-    public static final int tooltip_frame_light=0x7f0700a0;
+    public static final int slider3=0x7f07009a;
+    public static final int slider4=0x7f07009b;
+    public static final int slider5=0x7f07009c;
+    public static final int slider6=0x7f07009d;
+    public static final int slider_one=0x7f07009e;
+    public static final int slider_three=0x7f07009f;
+    public static final int slider_two=0x7f0700a0;
+    public static final int sliderfinal=0x7f0700a1;
+    public static final int sphere=0x7f0700a2;
+    public static final int tooltip_frame_dark=0x7f0700a3;
+    public static final int tooltip_frame_light=0x7f0700a4;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

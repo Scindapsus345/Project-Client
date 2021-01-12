@@ -93,7 +93,7 @@
                     </Grid>
                     <Button WidthRequest="250" HeightRequest="50" HorizontalOptions="Center" CornerRadius="25" 
                             VerticalOptions="EndAndExpand" Margin="0,0,0,20"
-                            Text="НАЧАТЬ" FontSize="30" Padding="0" BackgroundColor="#769CFF" 
+                            Text="НАЧАТЬ" FontSize="30" Padding="0" BackgroundColor="#816EE8" 
                             FontAttributes="Bold" TextColor="White"/>
                 </StackLayout>
             </Frame>
