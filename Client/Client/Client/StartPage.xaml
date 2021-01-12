@@ -31,12 +31,61 @@
     </ContentPage>
     <ContentPage>
         <ContentPage.Content>
+            <Grid BackgroundColor="#1F3250">
+                <Image Source="slider3" VerticalOptions="End" Aspect="AspectFill"/>
+                <StackLayout Spacing="-20" Margin="0,20,0,0">
+                    <Label Text="Жизнь стала" FontSize="54" FontAttributes="Bold" TextColor="#C6DAE5" 
+                           HorizontalOptions="Center" LineHeight="0.85"/>
+                    <Label Text="бессмысленной гонкой" FontSize="46" FontAttributes="Bold" TextColor="White" 
+                           HorizontalOptions="Center" LineHeight="0.85" HorizontalTextAlignment="Center"
+                           Margin="0,10,0,0"/>
+                    <Label Text="и" FontSize="60" FontAttributes="Bold" TextColor="#46739A" 
+                           HorizontalOptions="Center" LineHeight="0.85"/>
+                    <Label Text="вы не знаете" FontSize="56" FontAttributes="Bold" TextColor="#C6DAE5" 
+                           HorizontalOptions="Center" LineHeight="0.85"/>
+                    <Label Text="что делать?" FontSize="54" FontAttributes="Bold" TextColor="White" 
+                           HorizontalOptions="Center" LineHeight="0.85"/>
+                </StackLayout>
+            </Grid>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <Grid BackgroundColor="#B55A3D">
+                <Image Source="slider4" Aspect="AspectFill"/>
+                <Grid BackgroundColor="#30000000">
+                    <Label Text="Мы Вам поможем" FontSize="36" FontAttributes="Bold" TextColor="White" 
+                           HorizontalOptions="Center" LineHeight="0.85" Margin="0,5,0,0"/>
+                    <StackLayout Spacing="-10" VerticalOptions="End" Margin="0,0,0,100">
+                        <Label Text="Вы вернете" FontSize="60" FontAttributes="Bold" TextColor="White" 
+                               HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                               Margin="0,10,0,0"/>
+                        <Label Text="контроль" FontSize="60" FontAttributes="Bold" TextColor="#FFC5C5" 
+                               HorizontalOptions="End" Margin="0,0,15,0"/>
+                        <Label Text="над жизнью!" FontSize="58" FontAttributes="Bold" TextColor="#FFB673" 
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Grid>
+            </Grid>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <Grid BackgroundColor="#B55A3D">
+                <Image Source="slider5" Aspect="AspectFill"/>
+                <Label Text="Медитация Фокусирование Психология" FontSize="48" FontAttributes="Bold" TextColor="White" 
+                       HorizontalOptions="Center" LineHeight="0.85" Margin="0,5,0,0" HorizontalTextAlignment="Center"/>
+            </Grid>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
             <Grid BackgroundColor="White">
-                <Image Source="sliderFinal" Aspect="AspectFill"/>
-                <Button VerticalOptions="End" BackgroundColor="#EF0000" Margin="20, 0, 20, 50"
-                    HeightRequest="70" CornerRadius="35"
-                    Text="Вернуть огонь &#10;своей душе!" TextColor="White" TextTransform="None"
-                    FontSize="26" Padding="0,-5,0,0" FontAttributes="Bold" Clicked="ToLoginPage"/>
+                <Image Source="slider6" Aspect="AspectFill"/>
+                <Button VerticalOptions="End" BackgroundColor="#BB0840" Margin="20, 0, 20, 50"
+                        HeightRequest="80" CornerRadius="20"
+                        Text="Вернуть огонь &#10;своей душе!" TextColor="White" TextTransform="None"
+                        FontSize="28" Padding="5,0,5,5" FontAttributes="Bold" Clicked="ToLoginPage"/>
             </Grid>
         </ContentPage.Content>
     </ContentPage>

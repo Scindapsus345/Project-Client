@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Client.PsychologyPage"
+             xmlns:local="clr-namespace:Client;assembly=Client"
              NavigationPage.HasNavigationBar="false"
              BackgroundColor="White">
     <ContentPage.Content>
         <ScrollView VerticalScrollBarVisibility="Never">
             <StackLayout>
-                <Label Text="Для Вас" FontSize="32" TextColor="Black" Margin="8, 14, 0, 4" FontAttributes="Bold"/>
+                <!--<Label Text="Для Вас" FontSize="32" TextColor="Black" Margin="8, 14, 0, 4" FontAttributes="Bold"/>
                 <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
                     <StackLayout Orientation="Horizontal" Margin="10, 4">
                         <AbsoluteLayout WidthRequest="330" HeightRequest="184" Margin="0,0,10,0">
@@ -15,7 +16,7 @@
                             <Label Text="Не борись с &#10;мыслями, а &#10;отпусти их" 
                                    FontSize="32" TextColor="White" FontAttributes="Bold"
                                    Margin="115, 15, 0, 0"/>
-                            <!--<Button WidthRequest="330" HeightRequest="184" IsVisible="False"/>-->
+                            --><!--<Button WidthRequest="330" HeightRequest="184" IsVisible="False"/>--><!--
                         </AbsoluteLayout>
                         <AbsoluteLayout WidthRequest="330" HeightRequest="184">
                             <Image Source="p_ForYou2" HorizontalOptions="Center"/>
@@ -69,7 +70,7 @@
                                    Margin="67, 55, 0, 0"/>
                         </AbsoluteLayout>
                     </StackLayout>
-                </ScrollView>
+                </ScrollView>-->
 
                 <Label Text="По темам" FontSize="32" TextColor="Black" Margin="8, 4, 0, 0" FontAttributes="Bold"/>
                 <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
@@ -88,6 +89,16 @@
                                 <Image Source="p_Topics_Science" HorizontalOptions="Start"/>
                                 <Label Text="Наука" FontSize="28" Margin="0,0,0,0"
                                        TextColor="#2400FF" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Button Margin="0" CornerRadius="32" BackgroundColor="#00000000" Clicked="OpenTopic">
+                                    <Button.Triggers>
+                                        <EventTrigger Event="Pressed">
+                                            <local:ButtonTriggerAction BackgroundColor="#60000000" />
+                                        </EventTrigger>
+                                        <EventTrigger Event="Released">
+                                            <local:ButtonTriggerAction BackgroundColor="#00000000" />
+                                        </EventTrigger>
+                                    </Button.Triggers>
+                                </Button>
                             </Grid>
                         </Frame>
                         <Frame WidthRequest="168" HeightRequest="168" Margin="0,0,7,0" 

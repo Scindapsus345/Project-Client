@@ -15,12 +15,7 @@ namespace Client
         public MainPage()
         {
             InitializeComponent();
-            OpenSlider();
             CurrentPage = fire_content;
-        }
-        private async void OpenSlider()
-        {
-            await Navigation.PushAsync(new StartPage());
         }
 
     }

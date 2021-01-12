@@ -1033,3 +1033,5 @@ C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable
 C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable\slider3.png
 C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable\slider4.png
 C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable\slider5.png
+C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\res\drawable\googlelogo.png
+C:\Project\Project-Client\Client\Client\Client.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll

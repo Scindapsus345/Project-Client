@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Client.RegistrationPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout Margin="10, 40" Spacing="20">
+            <Label Text="Регистрация" FontSize="32" TextColor="Black" Margin="0, 0, 0, 0" FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+            <Frame BackgroundColor="#F7F7F7" BorderColor="Black" CornerRadius="32"
+                   Margin="0, 0, 0, 0" HorizontalOptions="Center" Padding="30, 30, 30, 80">
+                <StackLayout>
+                    <Entry x:Name="name" Placeholder="Имя" WidthRequest="260" FontSize="24"/>
+                    <Entry x:Name="login" Placeholder="Логин" WidthRequest="260" FontSize="24"/>
+                    <Entry x:Name="email" Placeholder="e-mail" WidthRequest="260" FontSize="24"/>
+                    <Entry x:Name="password" Placeholder="Пароль" WidthRequest="260" IsPassword="True" Margin="0, 0, 0, 0" FontSize="24"/>
+                    <Entry x:Name="pswdConfirm" Placeholder="Пароль еще раз" WidthRequest="260" IsPassword="True" Margin="0, 0, 0, 0" FontSize="24"/>
+                </StackLayout>
+            </Frame>
+            <Button Text="Зарегистрироваться" HeightRequest="60" CornerRadius="30" Margin="25, -72, 25, 0"
+                    FontSize="24" FontAttributes="Bold" BorderColor="Black" BorderWidth="1" BackgroundColor="#F7F7F7"
+                    TextTransform="None" Clicked="TryRegister"/>
+            <Label Margin="30,0,30,0" Text="" FontSize="20" HorizontalOptions="Center"
+                   TextColor="Red" x:Name="errorLog"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

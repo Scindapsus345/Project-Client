@@ -16,5 +16,22 @@ namespace Client
         {
             InitializeComponent();
         }
+
+        public async void OpenTopic(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TopicsPage());
+        }
+    }
+
+    public class ButtonTriggerAction : TriggerAction<VisualElement>
+    {
+        public Color BackgroundColor { get; set; }
+
+        protected override void Invoke(VisualElement visual)
+        {
+            var button = visual as Button;
+            if (button == null) return;
+            if (BackgroundColor != null) button.BackgroundColor = BackgroundColor;
+        }
     }
 }

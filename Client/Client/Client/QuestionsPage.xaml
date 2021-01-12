@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Client.QuestionsPage"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout Margin="10, 20" Spacing="20">
+            <Label Text="Но перед началом расскажи нам о своих тревогах" FontSize="36" TextColor="Black" Margin="0, 0, 0, 0" FontAttributes="Bold"
+                   HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+            <Frame BackgroundColor="#F7F7F7" BorderColor="Black" CornerRadius="32"
+                   Margin="20, 0, 20, 0" HorizontalOptions="Center" Padding="30">
+                <StackLayout Spacing="60">
+                    <Label x:Name="question" Text="У вас присутствует усталость?" FontSize="28" TextColor="Black" HorizontalTextAlignment="Center"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="40" Margin="0,0,0,20">
+                        <Button Text="Да" HeightRequest="60" CornerRadius="30"
+                                FontSize="24" FontAttributes="Bold" BorderColor="#04D600" BorderWidth="3" BackgroundColor="#F7F7F7"
+                                TextTransform="None" Clicked="NextQuestion"/>
+                        <Button Text="Нет" HeightRequest="60" CornerRadius="30"
+                                FontSize="24" FontAttributes="Bold" BorderColor="Red" BorderWidth="3" BackgroundColor="#F7F7F7"
+                                TextTransform="None" Clicked="NextQuestion"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Button Text="Пропустить" VerticalOptions="EndAndExpand" HorizontalOptions="End" FontSize="26" FontAttributes="Bold"
+                    BackgroundColor="white" TextColor="Gray"  Clicked="Skip"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

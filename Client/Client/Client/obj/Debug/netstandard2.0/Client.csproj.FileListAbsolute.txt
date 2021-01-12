@@ -37,3 +37,6 @@ C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\AddHabit
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\TestPage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\Client.csprojAssemblyReference.cache
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\TimerPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\RegistrationPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\QuestionsPage.xaml.g.cs

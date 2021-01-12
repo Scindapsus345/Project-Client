@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Client.LoginPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout Margin="10, 40" Spacing="20">
+            <Label Text="Вход" FontSize="32" TextColor="Black" Margin="0, 0, 0, 0" FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+            <Frame BackgroundColor="#F7F7F7" BorderColor="Black" CornerRadius="32"
+                   Margin="0, 0, 0, 0" HorizontalOptions="Center" Padding="30">
+                <StackLayout>
+                    <Entry x:Name="login" Placeholder="Логин" WidthRequest="260" FontSize="24"/>
+                    <Entry x:Name="password" Placeholder="Пароль" WidthRequest="260" IsPassword="True" Margin="0, 20, 0, 0" FontSize="24"/>
+                    <Button Text="Войти" HeightRequest="60" CornerRadius="30" Margin="40, 20, 40, 0"
+                            FontSize="24" FontAttributes="Bold" BorderColor="Black" BorderWidth="1" BackgroundColor="#F7F7F7"
+                            Clicked="TryLogin"/>
+                    <Label Text="Забыли пароль?" FontSize="16" TextColor="Black" Margin="0, 10, 0, 0" FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+            <Label Text="или" FontSize="32" TextColor="Black" Margin="0, -20, 0, -20" FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+            <Button CornerRadius="30" Margin="0" ImageSource="googleLogo" Padding="0" HorizontalOptions="Center"
+                    HeightRequest="60" WidthRequest="60"
+                    FontSize="24" FontAttributes="Bold" BorderColor="Black" BorderWidth="1" BackgroundColor="#F7F7F7"/>
+            <Label Text="или" FontSize="32" TextColor="Black" Margin="0, -20, 0, -20" FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+            <Button Text="Зарегистрироваться" HeightRequest="60" CornerRadius="30" Margin="40, 20, 40, 0"
+                    FontSize="24" FontAttributes="Bold" BorderColor="Black" BorderWidth="1" BackgroundColor="#F7F7F7"
+                    TextTransform="None" Clicked="OpenRegistration"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

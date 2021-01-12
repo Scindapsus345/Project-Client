@@ -4,11 +4,11 @@
              x:Class="Client.TestPage">
     <ContentPage.Content>
         <Grid BackgroundColor="White">
-            <Image Source="sliderFinal" Aspect="AspectFill"/>
-            <Button VerticalOptions="End" BackgroundColor="#EF0000" Margin="20, 0, 20, 50"
-                    HeightRequest="70" CornerRadius="35"
+            <Image Source="slider6" Aspect="AspectFill"/>
+            <Button VerticalOptions="End" BackgroundColor="#BB0840" Margin="20, 0, 20, 50"
+                    HeightRequest="80" CornerRadius="20"
                     Text="Вернуть огонь &#10;своей душе!" TextColor="White" TextTransform="None"
-                    FontSize="28" Padding="0" FontAttributes="Bold"/>
+                    FontSize="28" Padding="5,0,5,5" FontAttributes="Bold"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
