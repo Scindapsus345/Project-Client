@@ -40,3 +40,6 @@ C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\TimerPag
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\RegistrationPage.xaml.g.cs
 C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\QuestionsPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\ArticlePage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\TopicsPage.xaml.g.cs
+C:\Project\Project-Client\Client\Client\Client\obj\Debug\netstandard2.0\FavoriteArticles.xaml.g.cs

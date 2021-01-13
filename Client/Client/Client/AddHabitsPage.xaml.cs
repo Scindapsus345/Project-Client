@@ -65,5 +65,10 @@ namespace Client
         {
             homePage.ShowHabitsList();
         }
+
+        public async void Back(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace Client
         {
             InitializeComponent();
         }
+
+        public async void ToArticle(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ArticlePage());
+        }
     }
 }

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:client="clr-namespace:Client;assembly=Client"
+             x:Class="Client.ArticlePage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="15, 25, 15, 10">
+                <AbsoluteLayout HorizontalOptions="Center" Margin="15, 0, 15, 5"
+                            HeightRequest="170" WidthRequest="320" BackgroundColor="#27212F">
+                    <Image Source="psychoBtn2"/>
+                    <Grid x:Name="markBtn" Margin="280,-5,0,0">
+                        <Image Source="mark"/>
+                        <Button BackgroundColor="#00000000" Clicked="Save" HeightRequest="20" WidthRequest="20">
+                            <Button.Triggers>
+                                <EventTrigger Event="Pressed">
+                                    <client:ButtonTriggerAction BackgroundColor="#70000000" />
+                                </EventTrigger>
+                                <EventTrigger Event="Released">
+                                    <client:ButtonTriggerAction BackgroundColor="#00000000" />
+                                </EventTrigger>
+                            </Button.Triggers>
+                        </Button>
+                    </Grid>
+                    <Label Text="Плевать &#10;на страх" FontSize="36" Margin="153,30,0,0"
+                       TextColor="White" FontAttributes="Bold" LineHeight="1.1"/>
+                </AbsoluteLayout>
+                <Label Text="Как дать страхам пинка?" FontSize="36" TextColor="Black" Margin="15, 0, 15, 0" FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+                <Label Text="
+      Бояться — это нормально и 
+даже полезно. Главное — 
+правильно обращаться со 
+своей тревогой.&#10;&#10;
+      Что бы вы сделали — 
+неважно, жизни это касается 
+или работы, — если бы ничего
+не боялись? Такой простой 
+вопрос пробуждает 
+бесчисленное количество &#10;&#10;
+      Если боязнь потерпеть неудачу или показаться полнейшим идиотом
+хоть раз удерживала вас от того, к чему призывало сердце, вам
+пригодится очень важный совет от бизнес-консультанта Сандьи
+Брюгманн. Не нужно сражаться со страхом. Просто примите его и не
+позволяйте переживаниям тормозить вас на пути к мечте. &#10;&#10;
+      Сталкиваясь с чем-то пугающим, люди обычно демонстрируют 
+один из следующих типов поведения: пытаются бороться, бегут без 
+оглядки или впадают в ступор. Если вы замечали за собой такое, 
+знайте: вами руководят инстинкты. Именно они заставляют нас 
+доверить принятие решений страху. Что из этого получится? Точно ничего хорошего." 
+
+                   FontSize="22" TextColor="Black" Margin="15, 0, 15, 0"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

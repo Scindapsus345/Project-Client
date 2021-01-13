@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:client="clr-namespace:Client;assembly=Client"
              x:Class="Client.ProfilePage">
     <ContentPage.Content>
         <ScrollView VerticalScrollBarVisibility="Never">
@@ -19,11 +20,25 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
-                    <ImageButton Source="pr_Articles" Grid.Column="0" Grid.RowSpan="2" CornerRadius="32"
-                                 HeightRequest="170" WidthRequest="170"/>
-                    <Label Text="Статьи" Grid.Column="0" Grid.RowSpan="2"
-                           TextColor="White" FontSize="30" FontAttributes="Bold" 
-                           HorizontalOptions="Center" Margin="0,10,0,0"/>
+                    <Frame Padding="0" Grid.RowSpan="2" CornerRadius="32">
+                        <Grid>
+                            <Image Source="pr_Articles" HeightRequest="170" WidthRequest="170"/>
+                            <Button Grid.Column="0" CornerRadius="32" BackgroundColor="#00000000"
+                                         HeightRequest="170" WidthRequest="170" Clicked="ToFavoriteArticles">
+                                <Button.Triggers>
+                                    <EventTrigger Event="Pressed">
+                                        <client:ButtonTriggerAction BackgroundColor="#70000000" />
+                                    </EventTrigger>
+                                    <EventTrigger Event="Released">
+                                        <client:ButtonTriggerAction BackgroundColor="#00000000" />
+                                    </EventTrigger>
+                                </Button.Triggers>
+                            </Button>
+                            <Label Text="Статьи"
+                                   TextColor="White" FontSize="30" FontAttributes="Bold" 
+                                   HorizontalOptions="Center" Margin="0,10,0,0"/>
+                        </Grid>
+                    </Frame>
                     <Button BackgroundColor="#700083" Grid.Column="1" 
                             Text="Медитации" TextTransform="None" CornerRadius="32"
                             FontAttributes="Bold" TextColor="White" FontSize="28" 

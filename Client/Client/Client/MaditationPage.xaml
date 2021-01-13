@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:client="clr-namespace:Client;assembly=Client"
              x:Class="Client.MaditationPage">
     <!--#31005B-->
     <ContentPage.Content>
@@ -13,7 +14,16 @@
                             <Image Source="m_Tutorial" HorizontalOptions="Start" Margin="-5,0,0,0"/>
                             <Label Text="Введение" FontSize="34" FontAttributes="Bold" TextColor="#FFBA3E" Margin="150,25,0,0"/>
                             <Label Text="в медитацию" FontSize="28" FontAttributes="Bold" TextColor="#FFBA3E" Margin="150,65,0,0"/>
-                            <Button BackgroundColor="#00000000" Clicked="OpenTutorial"/>
+                            <Button BackgroundColor="#00000000" Clicked="OpenTutorial">
+                                <Button.Triggers>
+                                    <EventTrigger Event="Pressed">
+                                        <client:ButtonTriggerAction BackgroundColor="#70000000" />
+                                    </EventTrigger>
+                                    <EventTrigger Event="Released">
+                                        <client:ButtonTriggerAction BackgroundColor="#00000000" />
+                                    </EventTrigger>
+                                </Button.Triggers>
+                            </Button>
                         </Grid>
                     </Frame>
                 </Grid>
