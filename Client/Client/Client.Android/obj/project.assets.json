@@ -1980,11 +1980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\Project-Client\\Client\\Client\\Client.Android\\Client.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Никита\\Desktop\\Project\\Project-Client\\Client\\Client\\Client.Android\\Client.Android.csproj",
       "projectName": "Client.Android",
-      "projectPath": "C:\\Project\\Project-Client\\Client\\Client\\Client.Android\\Client.Android.csproj",
+      "projectPath": "C:\\Users\\Никита\\Desktop\\Project\\Project-Client\\Client\\Client\\Client.Android\\Client.Android.csproj",
       "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\Project-Client\\Client\\Client\\Client.Android\\obj\\",
+      "outputPath": "C:\\Users\\Никита\\Desktop\\Project\\Project-Client\\Client\\Client\\Client.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2005,8 +2005,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj": {
-              "projectPath": "C:\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj"
+            "C:\\Users\\Никита\\Desktop\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj": {
+              "projectPath": "C:\\Users\\Никита\\Desktop\\Project\\Project-Client\\Client\\Client\\Client\\Client.csproj"
             }
           }
         }

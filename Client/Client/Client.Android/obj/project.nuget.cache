@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nWJf/XTp/9oeF4eDGUjAosRxmaOHgIcAnixvZb/gaSXi4CgSDz7xfhe+Q0diVQfVTwiFKtQ+MAiuWG1sEI+EtA==",
+  "dgSpecHash": "+sFC/qbcThb8pPKHWgmvtc07JV17GlfD50eDiPvvkFX09oKTifWnRftJgjf4nkJy6c847vbwhA4WcGB7RgA6Yw==",
   "success": true,
-  "projectFilePath": "C:\\Project\\Project-Client\\Client\\Client\\Client.Android\\Client.Android.csproj",
+  "projectFilePath": "C:\\Users\\Никита\\Desktop\\Project\\Project-Client\\Client\\Client\\Client.Android\\Client.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Никита\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
